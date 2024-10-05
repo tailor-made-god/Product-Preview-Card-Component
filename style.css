@@ -122,8 +122,10 @@ picture img {
   font-weight: 600;
 }
 
-.card__price:hover {
-  color: var(--color-dark-cyan-hover);
+a:hover {
+  .card__price {
+    background-color: var(--color-dark-cyan-hover);
+  }
 }
 
 /* Desktop */
